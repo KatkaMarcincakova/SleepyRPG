@@ -1,0 +1,24 @@
+{
+  "name": "sleepyrpg_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatkaMarcincakova/SleepyRPG_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatkaMarcincakova/SleepyRPG_web/issues"
+  },
+  "homepage": "https://github.com/KatkaMarcincakova/SleepyRPG_web#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}

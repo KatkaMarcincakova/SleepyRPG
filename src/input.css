@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+    font-family: 'Press Start 2P', cursive;
+    scroll-behavior: smooth;
+    @apply text-mainLight;
+}
+
+body {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.full-screen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+@layer utilities {
+    /* Firefox */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #637c9c #171819;
+    }
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 3px;
+    }
+    *::-webkit-scrollbar-track {
+        background: #171819;
+        border-radius: 0px;
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: #637c9c;
+        border-radius: 14px;
+        border: 3px solid transparent;
+    }
+}
+
+h1 {
+    @apply text-7xl l:text-8xl text-green ;
+}
+
+h4 {
+    @apply text-xl l:text-2xl text-greenLight w-max mt-10 mb-2;
+}
