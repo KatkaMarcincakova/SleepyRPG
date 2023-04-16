@@ -44,9 +44,9 @@ body {
 }
 
 h1 {
-    @apply text-7xl l:text-8xl text-green ;
+    @apply xs:text-xl sm:text-2xl s:text-3xl md:text-4xl m:text-5xl lg:text-6xl l:text-7xl xl:text-8xl text-green ;
 }
 
 h4 {
-    @apply text-xl l:text-2xl text-greenLight w-max mb-2 break-before-auto;
+    @apply text-xl xl:text-2xl text-greenLight w-max mb-2 break-before-auto;
 }
