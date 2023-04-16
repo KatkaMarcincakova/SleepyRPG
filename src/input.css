@@ -47,5 +47,5 @@ h1 {
 }
 
 h4 {
-    @apply text-xl l:text-2xl text-greenLight w-max mt-10 mb-2;
+    @apply text-xl l:text-2xl text-greenLight w-max mb-2;
 }

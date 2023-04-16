@@ -19,9 +19,9 @@
     <div class="full-screen bg-mainDark/75 backdrop-blur-md flex items-stretch">
         <div class="self-center mx-auto text-center">
             <h1>Mystical Dream</h1>
-            <p class="mt-10 text-xl text-greenLight">Stylized action platformer about a meatball fighting the dinner table.</p>
+            <p class="mt-10 text-xl text-greenLight">NASE: Stylized action platformer about a meatball fighting the dinner table.</p>
             
-            <div class="flex flex-row space-x-20 w-max mx-auto mt-32">
+            <div class="flex flex-row justify-around w-1/3 mx-auto mt-32">
                 <div class="w-max flex flex-col space-y-1">
                     <img src="images/nightmare.png" alt="" class="mx-auto w-12">
                     <span class="">Creepy</span>
@@ -35,19 +35,51 @@
                     <span class="">Dreamy</span>
                 </div>
             </div>
+            <button onclick="scrollToSection('#story')" class="animate-bounce absolute bottom-10 mx-auto">
+                <img src="images/arrow-down.png" alt="arrow down" class="w-10 h-10">
+            </button>
+        </div>
+        
+    </div>
+    
+    <div id="story" class="w-2/3 mx-auto bg-mainDark/75 backdrop-blur-md px-8 py-12 mt-10">
+        <h4>Story</h4>
+        <div class="flex flex-row justify-between items-stretch">
+            <div class="text-sm w-1/2">
+                After a long day our hero finally lays down and drifts into sleep, entering the world of dreams, where he's awaited by a nightmare, which he attempts to evade. Along the way, he's met with many other nightmares that aim to possess his mind. He also meets a few dreams along his journey, that allow him to reminisce of simpler and nicer times, as well as allowing him to take a deeper look within himself. His main goal is to reach the edge of the world of dreams and beat his biggest nightmare once and for all, which is the manifestation of all his fears and anxieties. At the end, he finds himself awake, in the real world, realizing he's been in a coma for the past few years. Is it the real world? What's real?
+            </div>
+            <div class="self-center w-1/3">
+                <img src="images/bed.png" alt="" class="w-full">
+            </div>
         </div>
     </div>
     
-    <div class="w-2/3 mx-auto bg-mainDark/75 backdrop-blur-md px-8 py-12 mt-10">
-        <div class="flex flex-row justify-between">
-            
+    <div id="howToPlay" class="w-2/3 mx-auto mt-10 flex flex-row space-x-10">
+        <div class="bg-mainDark/75 backdrop-blur-md px-8 py-12 w-1/3">
+            <h4>How to play</h4>
+            <h5 class="text-lg text-white mt-8">Move</h5>
+            <div class="flex flex-row space-x-4 mt-5">
+                <img src="images/arrows.png" alt="" class="w-36 h-24">
+                <img src="images/wsad.png" alt="" class="w-36 h-24">
+            </div>
+            <h5 class="text-lg text-white mt-8">Shoot</h5>
+            <div class="flex flex-row space-x-4 mt-5">
+                <img src="images/space.png" alt="" class="w-40 h-12">
+            </div>
+            <h5 class="text-lg text-white mt-8">Get potion / case</h5>
+            <h6>touch</h6>
         </div>
-        
-        <h4>Story</h4>
-        <p class="text-sm">
-            Po dlhom dni si hlavný hrdina konečne ľahne a zaspáva. Dostáva sa do sveta snov, kde naňho už čaká nočná mora, ktorej sa cely ten čas snaží vyhnúť a popri tom sa mu do cesty este dostávajú aj rozne ine nočné mory, ktoré by ho chceli ovládnuť. Po ceste narazí na rôzne sny, ktoré sa počas jeho života v tomto svete snov odohrali a tak dokáže spoznať lepsie svoju minulosť a tak aj sám seba. <br>
-            Jeho hlavným cieľom je dostať sa na okraj sveta snov a poraziť nočnú moru, ktorá je manifestáciou jeho vlastnych strachov a úzkostí. Hah nakoniec zistí, že celý čas to bol len sen v sne a po prebudení sa konečne dostal do skutočného sveta, kde bol už pár rokov v kóme. Alebo to nie je ten skutočný svet? Čo je skutočnosť?
-        </p>
+        <div class="bg-mainDark/75 backdrop-blur-md px-8 py-12 w-2/3">
+            <img src="images/screen1.png" alt="">
+        </div>
     </div>
+    
+    
+    <div id="footer" class="w-full bg-mainDark/75 backdrop-blur-md p-2 mt-10 text-xs flex flex-row">
+        <img src="images/mainHero.png" alt="">
+        Made with love by 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
