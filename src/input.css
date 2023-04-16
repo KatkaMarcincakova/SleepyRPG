@@ -14,6 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    @apply backdrop-blur-sm;
 }
 
 .full-screen {
@@ -47,5 +48,5 @@ h1 {
 }
 
 h4 {
-    @apply text-xl l:text-2xl text-greenLight w-max mb-2;
+    @apply text-xl l:text-2xl text-greenLight w-max mb-2 break-before-auto;
 }
