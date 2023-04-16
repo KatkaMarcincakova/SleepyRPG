@@ -7,6 +7,7 @@ html {
     font-family: 'Press Start 2P', cursive;
     scroll-behavior: smooth;
     @apply text-mainLight;
+    overflow-x: hidden;
 }
 
 body {
@@ -44,9 +45,13 @@ body {
 }
 
 h1 {
-    @apply xs:text-xl sm:text-2xl s:text-3xl md:text-4xl m:text-5xl lg:text-6xl l:text-7xl xl:text-8xl text-green ;
+    @apply text-xl sm:text-2xl s:text-3xl md:text-4xl m:text-5xl lg:text-6xl l:text-7xl xl:text-8xl text-green ;
 }
 
-h4 {
-    @apply text-xl xl:text-2xl text-greenLight w-max mb-2 break-before-auto;
+.c-h4 {
+    @apply text-sm sm:text-base s:text-lg m:text-xl l:text-2xl text-greenLight break-before-auto mb-2;
+}
+
+.c-h5 {
+    @apply text-xs s:text-sm m:text-lg l:text-xl text-white break-before-auto mb-2;
 }
