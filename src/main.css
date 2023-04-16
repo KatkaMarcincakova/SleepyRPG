@@ -573,6 +573,10 @@ video {
   height: 1.5rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -616,6 +620,10 @@ video {
 
 .w-1\/5 {
   width: 20%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 @keyframes bounce {
@@ -727,6 +735,21 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
